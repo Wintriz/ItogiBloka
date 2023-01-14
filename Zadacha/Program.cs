@@ -15,12 +15,12 @@ for (int i = 0; i < size; i++)
 }
 
 string[] array2 = new string[size];
-int len = 3;
+int num = 3;
 int j = 0;
 
 for (int i = 0; i < size; i++)
 {
-    if (arrayStrings[i].Length <= len)
+    if (arrayStrings[i].Length <= num)
     {
         array2[j] = arrayStrings[i];
         j++;
